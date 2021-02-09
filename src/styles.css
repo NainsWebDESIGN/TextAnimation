@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 body {
+  margin: 0;
+  padding: 0;
+}
+.titlebody {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(assets/image/bg.jpg);
   background-size: cover;
