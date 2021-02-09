@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/image/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  overflow: hidden;
+}
+#example {
+  font-family: sans-serif;
+  font-size: 4.2em;
+  text-align: center;
+  margin-top: 250px;
+  color: #fff;
+  margin-bottom: -60px;
+  position: relative;
+  left: 50%;
+  width: 1491px;
+  margin-left: -745px;
+}
+.btn {
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 30px;
+  border: 3px solid #fff;
+  font-family: sans-serif;
+  width: 7%;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  border: 3px solid #30baba;
+  font-weight: bold;
+  color: #30baba;
+}
+.gap {
+  width: 46%;
+  font-family: sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  color: #fff;
+  font-size: 20px;
+}
